@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "751560967419",
+    "project_id": "firestore-crud-18282",
+    "storage_bucket": "firestore-crud-18282.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751560967419:android:62585f1356569b59805c5e",
+        "android_client_info": {
+          "package_name": "flutter.dart.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRzYSd-rsNS3029cIElCy5ye8FR9WvSp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
