@@ -36,7 +36,7 @@ class BuyNowPage extends StatelessWidget {
 
             DropdownButton<String>(
               hint: Text('Buying From'),
-              items: <String>['Bangladesh','Canada','China','India','Malaysia','Switzerland','Turkey','USA']
+              items: <String>['Turkey','UK','USA','Bangladesh','Canada','China','India']
                   .map((String value) {
                 return DropdownMenuItem<String>(
                   value: value,
