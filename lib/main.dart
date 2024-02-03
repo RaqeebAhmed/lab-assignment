@@ -6,7 +6,7 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {  
+  Widget build(BuildContext context) {
     return MaterialApp(
       home: BookListPage(),
     );
@@ -38,7 +38,7 @@ class _BookListPageState extends State<BookListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Book List'),
+        title: Text('Book List'),  
       ),
       body: ListView(
         children: [
@@ -48,10 +48,10 @@ class _BookListPageState extends State<BookListPage> {
             authorName: 'Author: Cal Newport',
             rating: '4.9',
             price:
-            'Price: 11 dollar',
+            'Price: 13.99 dollar',
 
             shortDescription:
-            'Description: A productive book which lets anyone gain the expertise of doing stuff under pressure.',
+            'Description: A productive book which does let anyone gain the expertise of doing sort of stuff under pressure.',
           ),
           BookCard(
             coverImage: 'assets/book2.jpg',
@@ -59,7 +59,7 @@ class _BookListPageState extends State<BookListPage> {
             authorName: 'James Clear',
             rating: '4.8',
             price:
-            'Price: 14 dollar',
+            'Price: 20 dollar',
             shortDescription:
             'Description: This awesome productive book helps anyone achieve the most amazing habit to do anything precisely.',
           ),
